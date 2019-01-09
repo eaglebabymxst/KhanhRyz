@@ -12,7 +12,7 @@ int main()
         cout<<"nhap vao so tien , lai xuat, so tien ky vong ";
         cin>>tg>>ls>>kv;
     }
-    while (tg <= kv)
+    while (tg < kv)
 				{
 					tg+=(tg*ls)/100;
 					i++;
